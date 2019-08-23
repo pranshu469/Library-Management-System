@@ -58,10 +58,10 @@ class DeleteLibrarian1 extends JFrame implements ActionListener
 
 			Statement s=c.createStatement();
 			
-			int x = s.executeUpdate("delete from emp where SNO='"+t1+"' ");
+			int x = s.executeUpdate("delete from emp11 where id='"+t1+"' ");
 			
 			//System.out.println(x);
-			ResultSet result1=s.executeQuery("select * from emp");
+			ResultSet result1=s.executeQuery("select * from emp11");
 			}
 		catch(Exception e)
 		{
