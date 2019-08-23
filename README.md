@@ -7,3 +7,5 @@ password:kapoor
 database:emp
 
 emp contains two columns 1:id 2:name.
+
+ create table empnew(id  varchar(10),name varchar(10));
