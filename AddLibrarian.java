@@ -65,7 +65,7 @@ class AddLibrarian extends JFrame implements ActionListener
 			int x = s.executeUpdate("insert into emp values('"+t1+"','"+t2+"')");
 			
 			//System.out.println(x);
-			ResultSet result1=s.executeQuery("select * from emp");
+			ResultSet result1=s.executeQuery("select * from emp11");
 		}
 		catch(Exception e)
 		{
