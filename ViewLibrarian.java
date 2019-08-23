@@ -15,7 +15,7 @@ class ViewLibrarian extends JFrame
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			Connection c= DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","mca6");
 			Statement s=c.createStatement();
-			ResultSet result1=s.executeQuery("select * from emp");
+			ResultSet result1=s.executeQuery("select * from emp11");
 			while(result1.next())
 			{	data[i][0]=result1.getString(1);
 				data[i][1]=result1.getString(2);
